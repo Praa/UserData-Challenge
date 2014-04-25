@@ -21,6 +21,11 @@
 		272E47EB190AD3CE00326F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272E47CD190AD3CE00326F06 /* UIKit.framework */; };
 		272E47F3190AD3CE00326F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 272E47F1190AD3CE00326F06 /* InfoPlist.strings */; };
 		272E47F5190AD3CE00326F06 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E47F4190AD3CE00326F06 /* User_Data_Challenge_SolutionTests.m */; };
+		272E4800190AD40600326F06 /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E47FF190AD40600326F06 /* CCUserData.m */; };
+		272E480F190ADC6E00326F06 /* person-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480B190ADC6E00326F06 /* person-1.jpg */; };
+		272E4810190ADC6E00326F06 /* person-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480C190ADC6E00326F06 /* person-2.jpg */; };
+		272E4811190ADC6E00326F06 /* person-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480D190ADC6E00326F06 /* person-3.jpg */; };
+		272E4812190ADC6E00326F06 /* person-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480E190ADC6E00326F06 /* person-4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		272E47F0190AD3CE00326F06 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		272E47F2190AD3CE00326F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		272E47F4190AD3CE00326F06 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		272E47FE190AD40600326F06 /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCUserData.h; path = ../CCUserData.h; sourceTree = "<group>"; };
+		272E47FF190AD40600326F06 /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCUserData.m; path = ../CCUserData.m; sourceTree = "<group>"; };
+		272E480B190ADC6E00326F06 /* person-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-1.jpg"; sourceTree = "<group>"; };
+		272E480C190ADC6E00326F06 /* person-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-2.jpg"; sourceTree = "<group>"; };
+		272E480D190ADC6E00326F06 /* person-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-3.jpg"; sourceTree = "<group>"; };
+		272E480E190ADC6E00326F06 /* person-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-4.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,8 @@
 				272E47DB190AD3CE00326F06 /* Main.storyboard */,
 				272E47DE190AD3CE00326F06 /* CCViewController.h */,
 				272E47DF190AD3CE00326F06 /* CCViewController.m */,
+				272E47FE190AD40600326F06 /* CCUserData.h */,
+				272E47FF190AD40600326F06 /* CCUserData.m */,
 				272E47E1190AD3CE00326F06 /* Images.xcassets */,
 				272E47D0190AD3CE00326F06 /* Supporting Files */,
 			);
@@ -126,6 +139,10 @@
 		272E47D0190AD3CE00326F06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				272E480B190ADC6E00326F06 /* person-1.jpg */,
+				272E480C190ADC6E00326F06 /* person-2.jpg */,
+				272E480D190ADC6E00326F06 /* person-3.jpg */,
+				272E480E190ADC6E00326F06 /* person-4.jpg */,
 				272E47D1190AD3CE00326F06 /* User Data Challenge Solution-Info.plist */,
 				272E47D2190AD3CE00326F06 /* InfoPlist.strings */,
 				272E47D5190AD3CE00326F06 /* main.m */,
@@ -229,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272E4810190ADC6E00326F06 /* person-2.jpg in Resources */,
+				272E4812190ADC6E00326F06 /* person-4.jpg in Resources */,
+				272E480F190ADC6E00326F06 /* person-1.jpg in Resources */,
 				272E47E2190AD3CE00326F06 /* Images.xcassets in Resources */,
 				272E47D4190AD3CE00326F06 /* InfoPlist.strings in Resources */,
+				272E4811190ADC6E00326F06 /* person-3.jpg in Resources */,
 				272E47DD190AD3CE00326F06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +273,7 @@
 			files = (
 				272E47DA190AD3CE00326F06 /* CCAppDelegate.m in Sources */,
 				272E47D6190AD3CE00326F06 /* main.m in Sources */,
+				272E4800190AD40600326F06 /* CCUserData.m in Sources */,
 				272E47E0190AD3CE00326F06 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
