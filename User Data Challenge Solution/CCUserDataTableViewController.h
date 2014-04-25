@@ -1,5 +1,5 @@
 //
-//  CCViewController.h
+//  CCUserDataTableViewController.h
 //  User Data Challenge Solution
 //
 //  Created by Michael St Aubyn on 25/04/2014.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCViewController : UIViewController
+@interface CCUserDataTableViewController : UITableViewController
 
-@property (strong, nonatomic) NSArray *users;
+@property (strong, nonatomic) NSMutableArray *users;
 
 @end

@@ -14,7 +14,6 @@
 		272E47D6190AD3CE00326F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E47D5190AD3CE00326F06 /* main.m */; };
 		272E47DA190AD3CE00326F06 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E47D9190AD3CE00326F06 /* CCAppDelegate.m */; };
 		272E47DD190AD3CE00326F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272E47DB190AD3CE00326F06 /* Main.storyboard */; };
-		272E47E0190AD3CE00326F06 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E47DF190AD3CE00326F06 /* CCViewController.m */; };
 		272E47E2190AD3CE00326F06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272E47E1190AD3CE00326F06 /* Images.xcassets */; };
 		272E47E9190AD3CE00326F06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272E47E8190AD3CE00326F06 /* XCTest.framework */; };
 		272E47EA190AD3CE00326F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272E47C9190AD3CE00326F06 /* Foundation.framework */; };
@@ -26,6 +25,8 @@
 		272E4810190ADC6E00326F06 /* person-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480C190ADC6E00326F06 /* person-2.jpg */; };
 		272E4811190ADC6E00326F06 /* person-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480D190ADC6E00326F06 /* person-3.jpg */; };
 		272E4812190ADC6E00326F06 /* person-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272E480E190ADC6E00326F06 /* person-4.jpg */; };
+		272E4815190AE5EC00326F06 /* CCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E4814190AE5EC00326F06 /* CCPerson.m */; };
+		272E4819190AE93E00326F06 /* CCUserDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E4818190AE93E00326F06 /* CCUserDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +51,6 @@
 		272E47D8190AD3CE00326F06 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		272E47D9190AD3CE00326F06 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		272E47DC190AD3CE00326F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		272E47DE190AD3CE00326F06 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		272E47DF190AD3CE00326F06 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		272E47E1190AD3CE00326F06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		272E47E7190AD3CE00326F06 /* User Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272E47E8190AD3CE00326F06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +63,10 @@
 		272E480C190ADC6E00326F06 /* person-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-2.jpg"; sourceTree = "<group>"; };
 		272E480D190ADC6E00326F06 /* person-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-3.jpg"; sourceTree = "<group>"; };
 		272E480E190ADC6E00326F06 /* person-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person-4.jpg"; sourceTree = "<group>"; };
+		272E4813190AE5EC00326F06 /* CCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPerson.h; sourceTree = "<group>"; };
+		272E4814190AE5EC00326F06 /* CCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPerson.m; sourceTree = "<group>"; };
+		272E4817190AE93E00326F06 /* CCUserDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserDataTableViewController.h; sourceTree = "<group>"; };
+		272E4818190AE93E00326F06 /* CCUserDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserDataTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +129,9 @@
 				272E47D8190AD3CE00326F06 /* CCAppDelegate.h */,
 				272E47D9190AD3CE00326F06 /* CCAppDelegate.m */,
 				272E47DB190AD3CE00326F06 /* Main.storyboard */,
-				272E47DE190AD3CE00326F06 /* CCViewController.h */,
-				272E47DF190AD3CE00326F06 /* CCViewController.m */,
-				272E47FE190AD40600326F06 /* CCUserData.h */,
-				272E47FF190AD40600326F06 /* CCUserData.m */,
+				272E4817190AE93E00326F06 /* CCUserDataTableViewController.h */,
+				272E4818190AE93E00326F06 /* CCUserDataTableViewController.m */,
+				272E4816190AE5F900326F06 /* Model */,
 				272E47E1190AD3CE00326F06 /* Images.xcassets */,
 				272E47D0190AD3CE00326F06 /* Supporting Files */,
 			);
@@ -167,6 +169,17 @@
 				272E47F1190AD3CE00326F06 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272E4816190AE5F900326F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				272E47FE190AD40600326F06 /* CCUserData.h */,
+				272E47FF190AD40600326F06 /* CCUserData.m */,
+				272E4813190AE5EC00326F06 /* CCPerson.h */,
+				272E4814190AE5EC00326F06 /* CCPerson.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272E4815190AE5EC00326F06 /* CCPerson.m in Sources */,
 				272E47DA190AD3CE00326F06 /* CCAppDelegate.m in Sources */,
 				272E47D6190AD3CE00326F06 /* main.m in Sources */,
 				272E4800190AD40600326F06 /* CCUserData.m in Sources */,
-				272E47E0190AD3CE00326F06 /* CCViewController.m in Sources */,
+				272E4819190AE93E00326F06 /* CCUserDataTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
